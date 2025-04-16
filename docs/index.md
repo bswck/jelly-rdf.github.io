@@ -2,7 +2,7 @@
 
 # Jelly
 
-**Jelly** is a high-performance binary serialization format and streaming protocol for [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework). It is based on [Protocol Buffers](https://protobuf.dev/) and [gRPC](https://grpc.io/), and has a JVM implementation that works with [Apache Jena](https://jena.apache.org/) and [RDF4J](https://rdf4j.org/).
+**Jelly** is a high-performance binary serialization format and streaming protocol for [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework) knowledge graphs. Jelly has a JVM implementation that works with [Apache Jena](https://jena.apache.org/), [RDF4J](https://rdf4j.org/), and [Titanium](https://github.com/filip26/titanium-rdf-api).
 
 <div class="grid cards" style="clear: right;" markdown>
 
@@ -18,7 +18,7 @@
 
     ---
 
-    Fully-integrated support for Jelly in [Apache Jena](https://jena.apache.org/) and [RDF4J](https://rdf4j.org/) with maximum performance
+    Fully-integrated support for [Apache Jena](https://jena.apache.org/), [RDF4J](https://rdf4j.org/), and [Titanium](https://github.com/filip26/titanium-rdf-api) with maximum performance
 
     [:octicons-arrow-right-24: Jelly-JVM]({{ jvm_link() }})
 
@@ -69,7 +69,7 @@ Community support is available on the **[Jelly Discord chat](https://discord.gg/
 - **[User guide](user-guide.md)**
 - **[Performance benchmarks](performance/index.md)**
 - **[Protocol specification](specification/index.md)**
-- **[Contributing to Jelly](contributing.md)**
+- **[Contributing to Jelly](contributing/index.md)**
 - **[Discord chat](https://discord.gg/A8sN5XwVa5)**
 - **Code on GitHub:** [protocol definition](https://github.com/Jelly-RDF/jelly-protobuf), [JVM implementation](https://github.com/Jelly-RDF/jelly-jvm), [website](https://github.com/Jelly-RDF/jelly-rdf.github.io)
 - **[Licensing and citation](licensing.md)**
